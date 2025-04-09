@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/shop/static/css/main.3c5bc273.css",
+    "main.js": "/shop/static/js/main.23b1b749.js",
+    "static/media/order-optics.png": "/shop/static/media/order-optics.36dba1de608385d35fcd.png",
+    "static/media/bubbles.png": "/shop/static/media/bubbles.cd1d55efbedfee1f2897.png",
+    "static/media/optics-shop.jpg": "/shop/static/media/optics-shop.c27e4c15b3b0ca9a690a.jpg",
+    "static/media/doctor3.jpg": "/shop/static/media/doctor3.44390dbaf5de01ece13e.jpg",
+    "index.html": "/shop/index.html",
+    "main.3c5bc273.css.map": "/shop/static/css/main.3c5bc273.css.map",
+    "main.23b1b749.js.map": "/shop/static/js/main.23b1b749.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3c5bc273.css",
+    "static/js/main.23b1b749.js"
+  ]
+}
