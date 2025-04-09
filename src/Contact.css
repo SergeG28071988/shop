@@ -1,0 +1,239 @@
+.contact-section {
+    padding-bottom: 102px;
+    position: relative;
+}
+
+.contact-section .container {
+    position: relative;
+
+}
+
+.common-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+    line-height: 100%;
+    text-align: center;
+}
+
+.contact-block {
+    margin-top: 103px;
+    background-color: rgb(255 255 255 / 30%);
+    backdrop-filter: blur(50px);
+    display: flex;
+}
+
+.contact-form {
+    margin-left: 200px;
+    max-width: 387px;
+    padding: 40px 0 44px 0;
+    box-sizing: border-box;
+}
+
+.contact-form-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 130%;
+}
+
+.contact-form-inputs {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.contact-form-inputs input {
+    border: 1px solid white;
+    /* border-radius: 60px; */
+    margin-bottom: 16px;
+    padding: 24px 22px;
+    font-size: 18px;
+    width: 385px;
+    height: 68px;
+    background: transparent;
+    box-sizing: border-box;
+    outline: none;
+    color: white;
+}
+
+.contact-form-inputs textarea {
+    border: 1px solid white;
+    /* border-radius: 60px; */
+    margin-bottom: 16px;
+    padding: 24px 22px;
+    font-size: 18px;
+    width: 385px;
+    height: 68px;
+    background: transparent;
+    box-sizing: border-box;
+    outline: none;
+    color: white;
+}
+
+::placeholder {
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.submit-btn {
+    background-color: #7e5584;
+    color: white;
+}
+
+.contact-form-inputs .submit-btn {
+    width: 387px;
+    height: 71px;
+}
+
+.contact-block-image {
+    height: 501px;   
+    margin-left: 109px;
+}
+
+.contact-optics {
+    height: 559px;
+    top: -68px;
+    position: relative;
+}
+
+.contact-bg-image {
+    position: absolute;
+    top: -50px;
+    right: calc(100% - 1200px);
+    z-index: -1;
+}
+
+/* Добавляемые медиазапросы */
+
+/* Мобильные устройства (менее 576px) */
+@media (max-width: 575px) {
+    .contact-section {
+        padding-bottom: 60px;
+    }
+
+    .contact-block {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-form {
+        margin-left: 0;
+        max-width: 100%;
+        padding: 20px 0;
+    }
+
+    .contact-form-inputs input,
+    .contact-form-inputs textarea {
+        width: 100%;
+        height: auto;
+        padding: 12px 16px;
+    }
+
+    .contact-form-inputs .submit-btn {
+        width: 100%;
+        height: 50px;
+    }
+
+    .contact-block-image {
+        height: auto;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .contact-optics {
+        height: auto;
+        top: 0;
+    }
+
+    .contact-bg-image {
+        display: none;
+    }
+}
+
+/* Планшеты (от 576px до 991px) */
+@media (min-width: 576px) and (max-width: 991px) {
+    .contact-section {
+        padding-bottom: 80px;
+    }
+
+    .contact-block {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-form {
+        margin-left: 0;
+        max-width: 100%;
+        padding: 30px 0;
+    }
+
+    .contact-form-inputs input,
+    .contact-form-inputs textarea {
+        width: 100%;
+        height: auto;
+        padding: 16px 20px;
+    }
+
+    .contact-form-inputs .submit-btn {
+        width: 100%;
+        height: 55px;
+    }
+
+    .contact-block-image {
+        height: auto;
+        margin-left: 0;
+        margin-top: 30px;
+    }
+
+    .contact-optics {
+        height: auto;
+        top: 0;
+    }
+
+    .contact-bg-image {
+        display: none;
+    }
+}
+
+/* Ноутбуки и маленькие мониторы (от 992px до 1199px) */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .contact-section {
+        padding-bottom: 80px;
+    }
+
+    .contact-block {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contact-form {
+        margin-left: 20px;
+        max-width: 450px;
+        padding: 30px 0;
+    }
+
+    .contact-form-inputs input,
+    .contact-form-inputs textarea {
+        width: 100%;
+        height: auto;
+        padding: 16px 20px;
+    }
+
+    .contact-form-inputs .submit-btn {
+        width: 100%;
+        height: 55px;
+    }
+
+    .contact-block-image {
+        height: auto;
+        margin-left: 30px;
+    }
+
+    .contact-optics {
+        height: auto;
+        top: 0;
+    }
+
+    .contact-bg-image {
+        display: none;
+    }
+}
