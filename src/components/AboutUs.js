@@ -35,7 +35,7 @@ export class AboutUs extends Component {
             <div className="team-members">
               <div className="team-member">
                 <img src={doctor1} alt="Леонид Иларионов" />
-                <h3>Елена Иванова</h3>
+                <h3>Леонид Иларионов</h3>
                 <p>Врач-офтальмолог</p>
                 <p>Опыт более 10 лет. Проводит диагностику зрения и помогает подобрать наилучшее решение для каждого клиента.</p>
               </div>

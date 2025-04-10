@@ -44,7 +44,7 @@ export default function Header(props) {
                 </div>
                 <nav className='menu'>
                     <ul>
-                        <li><a href="/">Главная</a></li>
+                        <li>Главная</li>
                         <li><a href="#products">НАШ каталог</a></li>
                         <li><a href="#about-us">Про нас</a></li>
                         <li><a href="#contacts">Контакты</a></li>
